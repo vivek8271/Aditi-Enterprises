@@ -1,0 +1,65 @@
+.navbar{
+
+    background:white;
+
+    box-shadow:0 4px 16px rgba(0,0,0,.08);
+
+}
+
+.logo{
+
+    width:45px;
+
+    height:45px;
+
+    object-fit:contain;
+
+}
+
+.company-name{
+
+    margin-left:12px;
+
+    font-size:1.2rem;
+
+    font-weight:700;
+
+    color:var(--brand-primary);
+
+}
+
+.nav-link{
+
+    font-weight:600;
+
+    color:#444;
+
+    transition:.3s;
+
+}
+
+.nav-link:hover{
+
+    color:var(--brand-accent);
+
+}
+
+.nav-link.active{
+
+    color:var(--brand-accent);
+
+}
+
+.btn-brand{
+
+    background:var(--brand-accent);
+
+    color:white;
+
+}
+
+.btn-brand:hover{
+
+    background:#d87512;
+
+}
